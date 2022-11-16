@@ -1,0 +1,218 @@
+@font-face {
+	font-family: "Trajan Pro 3";
+	font-style: regular;
+	font-weight: 400;
+	src: url(ofont.ru_Trajan.ttf),
+	url(ofont.ru_Trajan.woff);
+}
+
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+	background-image: url(901847.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.l_block {
+    margin-top: 80;
+	color: white;
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 5px;
+	text-align-last: justify;
+	text-indent: 1.5em;
+	margin-left: 2%;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	font-size: 17.5;
+	font-family: "Trajan Pro 3";
+	box-shadow: 0 15px 2em #0a0a0a;
+	display: inline-block;
+}
+
+.r_block {
+    margin-top: 80;
+	color: white;
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 5px;
+	text-indent: 1.5em;
+	text-align-last: justify;
+	margin-right: 2%;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	font-size: 17.5;
+	font-family: "Trajan Pro 3";
+	box-shadow: 0 15px 2em #0a0a0a;
+	display: inline-block;
+}
+
+.c_block {
+    margin-top: 180;
+	color: white;
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 5px;
+	text-align-last: justify;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	text-indent: 1.5em;
+	font-size: 17.5;
+	font-family: "Trajan Pro 3";
+	box-shadow: 0 15px 2em #0a0a0a;
+	line-height: 1.5;
+}
+
+.c_block_sub{
+    margin-top: 80;
+	color: white;
+	background-color: rgba(20, 20, 20, 0.9);
+	padding: 5px;
+	text-align-last: start;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	text-indent: 1.5em;
+	font-size: 17.5;
+	font-family: "Trajan Pro 3";
+	box-shadow: 0 15px 2em #0a0a0a;
+	line-height: 1.5;
+}
+
+.logo2 {
+	color: white;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	font-size: 24;
+	font-family: "Trajan Pro 3";
+}
+
+.blk_name {
+	color: white;
+	background-color: rgba(77, 64, 59, 0.9);
+	text-shadow: 0px 0px 2px #f9f2ed, 0px 0px 2px #e9ccb9, 0 0 1em #cc865c;
+	text-align: center;
+	text-align-last: center;
+	font-size: 24;
+	font-family: "Trajan Pro 3";
+	padding: 5px;
+	margin-bottom: 9;
+}
+
+.blk_logo {
+	color: white;
+	background: linear-gradient(0deg, #141414 30%, transparent);
+	text-shadow: 0px 0px 2px #f9f2ed, 0px 0px 2px #e9ccb9, 0 0 1em #cc865c;
+	text-align: center;
+	text-align-last: center;
+	font-size: 24;
+	font-family: "Trajan Pro 3";
+	padding: 5px;
+}
+
+.blk_name_dwn
+{
+	color: white;
+	background-color: rgba(77, 64, 59, 0.9);
+	text-shadow: 0px 0px 2px #f9f2ed, 0px 0px 2px #e9ccb9, 0 0 1em #cc865c;
+	text-align: center;
+	text-align-last: center;
+	font-size: 24;
+	font-family: "Trajan Pro 3";
+	padding: 5px;
+	margin-top: 9;
+	caption-side: bottom;
+}
+
+.main {
+	position: sticky;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.95);
+	margin: -10 -8.49999 0 -19;
+	box-shadow: 0 7px 2em 14px #000000;
+}
+
+.last{
+	background-color: rgba(0, 0, 0, 0.95);
+	margin: 0 -8.49999 -10 -19;
+	box-shadow: 0 7px 2em 14px #000000;
+}
+
+li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+ul {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+	color: white;
+	font-size: large;
+	font-family: "Trajan Pro 3";
+	font-size: 22;
+}
+
+a:hover {
+	color: #f5af64;
+	text-shadow: 0px 0px 3px #d97e0f, 0px 0px 2px #fcba03, 0 0 1em #ffd900;
+	animation-duration: 0.5s;
+    animation-name: glow;
+}
+
+@keyframes glow {
+ 
+ from {
+color: white;
+text-shadow: 0px 0px 1px #f9f2ed, 0px 0px 1px #e9ccb9, 0 0 1em #cc865c;
+  }
+
+  to {
+    color: #f5af64;
+	text-shadow: 0px 0px 3px #d97e0f, 0px 0px 2px #fcba03, 0 0 1em #ffd900;
+  }
+}
+
+.hmenu {
+	position: relative;
+    display: inline-block;
+}
+
+.hmenu_cont {
+	z-index: 1;
+	display: none;
+    position: absolute;
+}
+
+.hmenu_cont a{
+	padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+	text-align-last: center;
+	font-size: 19;
+}
+
+.hmenu:hover .hmenu_cont {
+	display:table;
+	background-color: rgba(0, 0, 0, 0.65);
+	/* background: linear-gradient(0deg, #000000 65%, transparent); */
+	box-shadow: 0 20px 2em #000000;
+}
+
+.line {
+	right: 5%;
+	position: absolute;
+	margin-top: 20px;
+	height:2px;
+	width: 90%;
+	background: linear-gradient(90deg, transparent, #ffffff, transparent);
+
+	/* background-color: #ffffff; */
+	z-index:-2;
+}
+
+
+
+.pic {
+	float: right;
+	padding: 10px;
+	padding-left: 30px;
+}
