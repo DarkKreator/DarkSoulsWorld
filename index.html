@@ -345,16 +345,10 @@
 </tr>
 </table>
 
-<form action="my.php">
-
-Выберете страны, в которых вы были: <br>
-
-<input type = "checkbox" name = "type1" value = "Turkey">Турция<br>
-<input type = "checkbox" name = "type2" value = "Poland">Польша<br>
-<input type = "checkbox" name = "type3" value = "USA">США<br>
-<input type = "checkbox" name = "type4" value = "Egypt">Египет<br>
-<input type = "checkbox" name = "type5" value = "Thailand">Таиланд<br>
-<input type = "submit" name = "submit" value = "Ответить">
+<form action="send.php" method="post">
+<input type="text" name="fio" placeholder="Укажите ФИО" required>
+<input type="text" name="email" placeholder="Укажите e-mail" required>
+<input type="submit" value="Отправить">
 </form>
 
 <a name = "end"></a>
